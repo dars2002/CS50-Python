@@ -1,5 +1,5 @@
-def total(galleons,sickles,knuts):
-    return (galleons*17 + sickles) * 29 + knuts
+def f(*args,**kwargs):
+    print("Named:" , kwargs)
 
 
-print(total(100,15,44), "Knuts")
+f(galleons=100, sickles=20, knuts=10) 
